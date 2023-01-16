@@ -34,12 +34,11 @@ a{
 
 }
 
-.gradient__text{
-     background: var(--gradient-text);
-     background-clip: text;
-     --webkit-background-clop:text
-     --webkit-text-fill-color: transparent
-
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .section__padding {
